@@ -1,9 +1,9 @@
-from dist_lev import Lev
+from dist_lev import lev
 import sys
 
 
 def loss_metric(str_one, str_two):
-    return Lev(str_one, str_two) / len(str_two)
+    return lev(str_one, str_two) / len(str_two)
 
 
 if __name__ == '__main__':
